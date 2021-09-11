@@ -1,4 +1,4 @@
 watch:
-	cd Rocket_Api && cargo watch -x run
+	cd therealflamingo && cargo watch -x run
 run_ui:
-	cd therealflamingo-ui && npm run dev
+	cd therealflamingo-ui && HOST=0.0.0.0 npm run dev
