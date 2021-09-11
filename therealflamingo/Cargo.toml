@@ -1,0 +1,15 @@
+[package]
+name = "The Real Flamingo Api"
+version = "0.1.0"
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+rocket = "0.5.0-rc.1"
+printpdf = "0.3.2"
+diesel = "1.4.7"
+serde = "1.0.130"
+serde_derive = "1.0.130"
+serde_json = "1.0.67"
+rocket_contrib = "0.4.10"
